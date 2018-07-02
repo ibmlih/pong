@@ -187,9 +187,9 @@ function love.update(dt)
 
             -- keep velocity going in the same direction, but randomize it
             if ball.dx < 0 then
-                ball.dx = -math.random(10, 150)
+                ball.dx = -math.random(50, 150)
             else
-                ball.dx = math.random(10, 150)
+                ball.dx = math.random(50, 150)
             end
 
             sounds['paddle_hit']:play()
@@ -201,9 +201,9 @@ function love.update(dt)
 
             -- keep velocity going in the same direction, but randomize it
             if ball.dx < 0 then
-                ball.dx = -math.random(10, 150)
+                ball.dx = -math.random(50, 150)
             else
-                ball.dx = math.random(10, 150)
+                ball.dx = math.random(50, 150)
             end
 
             sounds['paddle_hit']:play()
