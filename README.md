@@ -3,5 +3,6 @@
 A classic game of pong with 2 horizontal paddles in addition to 2 vertical paddles.
 Player 1 controls 2 vertical paddles with 'w' and 's'.
 Player 2 controls 2 horizontal paddles with left-arrow and right-arrow.
+First player to score 10 points wins the game.
 
-Created with LOVE2D and Lua.
+Created with LÖVE and Lua.
